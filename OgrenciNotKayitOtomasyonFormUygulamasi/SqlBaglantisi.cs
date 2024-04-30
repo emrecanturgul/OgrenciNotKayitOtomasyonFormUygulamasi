@@ -11,7 +11,7 @@ namespace OgrenciNotKayitOtomasyonFormUygulamasi
     {    
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection(@"Data Source=Emre\SQLEXPRESS;Initial Catalog=DbNotKayit;Integrated Security=True");
+            SqlConnection baglan = new SqlConnection(@"burda sql bağlantısı var ");
             baglan.Open();
             return baglan; 
         }
